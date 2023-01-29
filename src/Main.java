@@ -7,7 +7,7 @@ public class Main {
         int bonus;
 
         if (deposit > 1000) {
-            bonus = deposit/100;
+            bonus = deposit / 100;
         } else {
             bonus = 0;
         }
