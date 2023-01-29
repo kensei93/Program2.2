@@ -3,11 +3,10 @@ public class Main {
 
         int score = 100; // Счет клиента
         int deposit = 1000; // депозит
-        boolean dp = true;
 
         int bonus;
 
-        if (deposit >= 1000) {
+        if (deposit > 1000) {
             bonus = deposit/100;
         } else {
             bonus = 0;
